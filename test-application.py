@@ -17,5 +17,7 @@ df
 
 number = st.slider("Pick a Number!", 1, 30)
 
-st.button("Click me")
+if st.button("Click me"):
+  st.write("Hi")
+  
 
