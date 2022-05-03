@@ -20,4 +20,6 @@ df = pd.DataFrame({
 
 df
 
+value = st.slider(1, 15, 30)
+
 
