@@ -3,9 +3,9 @@
 Here's our first attempt at using data to create a table:
 """
 
-import json
-import glob
-from pprint import pprint
+#import json
+#import glob
+#from pprint import pprint
 import streamlit as st
 import pandas as pd
 
