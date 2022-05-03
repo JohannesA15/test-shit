@@ -1,7 +1,4 @@
-"""
-# My first app
-Here's our first attempt at using data to create a table:
-"""
+pip install jsonlines
 
 import json
 import glob
