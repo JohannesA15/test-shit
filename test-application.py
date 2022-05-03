@@ -1,5 +1,3 @@
-pip install jsonlines
-
 import json
 import glob
 from pprint import pprint
@@ -18,5 +16,10 @@ df = pd.DataFrame({
 df
 
 number = st.slider("Pick a Number!", 1, 30)
+
+if st.button("Get random Tweet"):
+  st.write("Here you go")
+else:
+  pass
 
 
