@@ -20,6 +20,6 @@ df = pd.DataFrame({
 
 df
 
-value = st.slider(1, 15, 30)
+number = st.slider("Pick a Number!", 1, 30)
 
 
