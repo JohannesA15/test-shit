@@ -15,7 +15,7 @@ st.subheader('Unser Team')
 
 st.text('Hallo zusammen,\nwir sind Johannes Ackermann, Simon Müller und Dominik Rolof.\nWir studieren Wirtschaftsinfo und wünschen uns allen ein erfolgreiches Semester.\nUnser Projekt befasst sich mit der Klassifizierung\neinzelner Politiker in Parteien anhand ihrer Tweets')
 
-file = open('/Users/johannes/JupyterProjects/test1/data/Philipp_Amthor.jl')
+file = open('Philipp_Amthor.jl')
 data = js.load(file)
 
 if st.button('Beispiel eines Datensatzes'):
